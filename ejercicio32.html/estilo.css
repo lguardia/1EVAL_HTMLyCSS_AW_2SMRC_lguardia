@@ -7,3 +7,8 @@
 p{
     color: red;
 }
+*{
+    border: green dotted 1px;
+    padding: 10px;
+    margin: 10px;
+}
