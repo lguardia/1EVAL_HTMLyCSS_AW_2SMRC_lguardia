@@ -11,4 +11,6 @@ p{
     border: green dotted 1px;
     padding: 10px;
     margin: 10px;
+    background-color: darkturquoise; 
+    background-image: url("img/JayT.jpeg");
 }
