@@ -8,9 +8,10 @@ p{
     color: red;
     border: red 2px;
     background-image: url("img/JayT.jpeg") ;
+    
 }
 *{
-    border: green dotted 1px;
+    border:  green dotted 1px;
     padding: 10px;
     margin: 10px;
     background-color: darkturquoise; 
