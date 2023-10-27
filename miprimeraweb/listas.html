@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
-      ol{
-        list-style-image: url("img/smiley.png");
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    ol {
+      list-style-position: outside;
+      list-style-image: url("img/smiley.png");
 
     }
-    body{
+
+    ol.Ra {
+      background-color: aquamarine;
+    }
+
+    li.pos {
+      background-color: brown;
+    }
+
+    body {
       background-image: url("img/kobe.jpg");
     }
+  </style>
 
-    </style>
-    
-  </head>
-  <body>
-    <p style="color:blue">Esto es un párrafo azul</p>
-    <ol>
-      <li>primer elemento</li>
-      <li>segundo elemento</li>
-      <li>tercer elemento</li>
-    </ol>
+</head>
 
-    <ul style="list-style-type: lower-greek;">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-    </ul>
+<body>
+  <p style="color:blue">Esto es un párrafo azul</p>
+  <ol class="Ra">
+    <li class="pos">primer elemento</li>
+    <li>segundo elemento</li>
+    <li>tercer elemento</li>
+  </ol>
 
-    <dl style="color: blueviolet;">
-      <dt>Binario</dt>
-      <dd>0 o 1</dd>
-      <dt>Hexadecimal</dt>
-      <dd>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F</dd>
-      <dt>Octal</dt>
-      <dd>0,1,2,3,4,5,6,7</dd>
-    </dl>
-    <h2>Lista ordenada</h2>
-    
-    <ol style="color: aquamarine;">
-      <li>Emilio</li>
-      <li>Axel</li>
-      <li>Jorge</li>
-      <li>Javi</li>
-      <li>Alba</li>
-    </ol>
-  </body>
+  <ul style="list-style-type: lower-greek;">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+  </ul>
+
+  <dl style="color: blueviolet;">
+    <dt>Binario</dt>
+    <dd>0 o 1</dd>
+    <dt>Hexadecimal</dt>
+    <dd>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F</dd>
+    <dt>Octal</dt>
+    <dd>0,1,2,3,4,5,6,7</dd>
+  </dl>
+  <h2>Lista ordenada</h2>
+
+  <ol style="color: aquamarine;">
+    <li>Emilio</li>
+    <li>Axel</li>
+    <li>Jorge</li>
+    <li>Javi</li>
+    <li>Alba</li>
+  </ol>
+</body>
+
 </html>
