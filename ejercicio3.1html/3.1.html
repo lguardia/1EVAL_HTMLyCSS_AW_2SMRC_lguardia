@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    thead{
+        background-color: brown;
+        color: white;
+        text-transform: capitalize
+    }
+    td:last-child{
+    font-weight: bolder;        
+    }
+    tbody>tr:nth-child(odd) {
+        background-color: rgb(28, 76, 150);
+        color: white;
+    }
+    tbody>tr:nth-child(even){
+        background-color: white;
+        color: rgb(28, 76, 150);
+    }
+    tfoot{
+        background-color: brown;
+        color: white;
+        text-transform: capitalize
+    }
+
+</style>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>Conceptos</td>
+                <td>primer semestre</td>
+                <td>Segundo semestre</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Alimentacion</td>
+                <td>1500</td>
+                <td>1750</td>
+                <td>3250</td>
+            </tr>
+            <tr>
+                <td>Tecnologia</td>
+                <td>1500</td>
+                <td>1750</td>
+                <td>3250</td>
+            </tr>
+            <tr>
+                <td>Deporte</td>
+                <td>1500</td>
+                <td>1750</td>
+                <td>3250</td>
+            </tr>
+            <tr></tr>
+            <td>Viajes</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+            <tr>
+                <td>Papeleria</td>
+                <td>1500</td>
+                <td>1750</td>
+                <td>3250</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
