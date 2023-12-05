@@ -1,0 +1,119 @@
+
+
+body {
+    margin: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  }
+
+  header {
+    position: relative;
+    text-align: center;
+
+}
+ .imagenbirras {
+    opacity: 0.7;
+    
+    background-size: cover;
+    
+ }
+ nav div {
+    float: left;
+    padding: 10px;
+
+ }
+
+ .imagenfondo {
+    width: 100%;
+ }
+
+
+
+ .compra {
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+
+.barranav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: blue;
+    color: aliceblue;
+    float: left;
+    width: 100%;
+    padding: 10px;
+ }
+
+ main h1 {
+    color: blue;
+    text-align: center;
+ }
+
+
+  .seguircomprando {
+    background-color: blue;
+    text-align: center;
+    color: darksalmon;
+    width: 5cm;
+    position: absolute;
+    right: 30%;
+    top: 25%;
+
+    border-radius: 20px;
+  }
+  hr {
+    width: 60%;
+  }
+
+.articulo {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 4cm;
+    text-align: justify;
+    line-height: 25px;
+
+}
+
+p::first-letter {
+    color: chocolate;
+    float:left;
+    font-size: 2em;
+    border-right: 1px solid blue;
+}
+ .imagentexto {
+   margin-left: 18%;
+
+ }
+  .logo_ow {
+    float: left;
+    margin: 100px;
+
+  }
+
+  .contlogo {
+    margin-left: 3cm;
+  }
+  .boteow {
+    float: left;
+    margin-right: 5%;
+    
+  }
+.galeria {
+    float: left;
+    margin-top: 3cm;
+}
+
+.galeria img {
+    width: 180px;
+}
+
